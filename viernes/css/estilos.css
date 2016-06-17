@@ -1,0 +1,51 @@
+body{
+	margin: 0px; 
+	padding: 0px;
+	font-family: arial;
+}
+
+/*----->Menu de navegacion<----*/
+.menu-navegacion ul li{
+	
+	list-style: none;
+	display: inline;
+	margin: 5px;
+	border: 2px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	
+}
+
+.menu-navegacion ul li a{
+	background: #F20887;
+	text-decoration: none;
+	padding: 10px 10px;
+	color: white;
+
+}
+
+.menu-navegacion ul li:hover a{
+	background: black;
+}
+/*----->titulo<----*/
+.titulo{
+	background: #ff0078;
+}
+
+.titulo h1{
+	margin: 0;
+	font-size: 16px;
+	padding: 15px 0;
+	color: white;
+	display: block;
+}
+
+.introduccion{
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 15px;
+	border-bottom: 1px solid gray;
+
+}
