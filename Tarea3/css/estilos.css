@@ -1,0 +1,83 @@
+
+h1{
+
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.titulo_principal{
+	background: #11143A;
+	font-family: fantasy;
+}
+
+body{
+
+	margin: 0;
+	margin-top: -20; 
+	background: #22ABE6;
+	font-family: fantasy;
+}
+
+.menu{
+	text-align: center;
+}
+
+.menu ul{
+
+	margin: 10;
+	padding: 10;
+}
+
+.menu li{
+	display: inline;
+}
+
+.menu a{
+	font-size: large;
+	margin: 20px;
+	margin-bottom: 20;
+	padding: 20px; 
+	text-decoration: none;
+	background: #11143A;
+	color: white;
+}
+
+.menu li.actual a,
+.menu li:hover a{
+	color: #11143A;
+	background: white;
+}
+
+.personal {
+	color: white;
+	font-size: 50px;
+	margin-top: 35px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.personal ul.contacto{
+	list-style: none;
+	color: #11143A;
+}
+
+.biblio,.educacion,.gustos{
+	color: #11143A;
+	font-size: 35px;
+	text-align: center;
+	padding: 30px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.biblio h2, .educacion h2,.gustos h2{
+
+	color: white;
+	font-size: 50px;
+}
+
+.gustos a{
+	text-decoration:none;
+	color: white;
+}
